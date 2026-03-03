@@ -824,13 +824,14 @@ section,
 }
 
 .hero .carousel-container {
-  position: absolute;
-  inset: 90px 64px 64px 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  z-index: 3;
+    position: absolute;
+    inset: 0;
+    padding: 0 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 3;
 }
 
 .hero h2 {
@@ -839,6 +840,7 @@ section,
   font-weight: 700;
   animation: fadeInDown 1s both;
   white-space: nowrap;
+   margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
@@ -848,8 +850,9 @@ section,
 }
 
 .hero p {
-   font-size: 24px;     
+   font-size: 26px;     
     font-weight: 500;
+  margin-bottom: 30px;
   animation: fadeInDown 1s both 0.2s;
 }
 
