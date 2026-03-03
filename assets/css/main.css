@@ -848,7 +848,7 @@ section,
 
 .hero p {
    font-size: 22px;     
-    font-weight: 500;
+   
   margin-bottom: 30px;
   animation: fadeInDown 1s both 0.2s;
 }
@@ -958,8 +958,9 @@ section,
 }
 
 .about ul i {
-  font-size: 20px;
+  font-size: 24px;
   padding-right: 4px;
+  font-weight: 400;
   color: var(--accent-color);
 }
 
@@ -991,6 +992,9 @@ section,
 
 .about .read-more:hover i {
   transform: translate(5px, 0);
+}
+.about p {
+  font-weight: 400;
 }
 
 /*--------------------------------------------------------------
