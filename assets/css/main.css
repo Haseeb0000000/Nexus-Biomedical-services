@@ -176,6 +176,7 @@ h6 {
   margin: 0 0 0 30px;
   border-radius: 4px;
   transition: 0.3s;
+  font-weight: 700; 
 }
 
 .header .btn-getstarted:hover,
