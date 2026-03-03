@@ -993,6 +993,9 @@ section,
 .about .read-more:hover i {
   transform: translate(5px, 0);
 }
+.about p {
+  font-weight: 400;
+}
 
 /*--------------------------------------------------------------
 # Clients Section
