@@ -822,6 +822,8 @@ section,
     color: #ffffff;
     white-space: nowrap;
     margin-bottom: 30px;
+   display: inline-block;   /* key fix */
+   text-align: center;
 }
 @media (max-width: 768px) {
   .hero h2 {
