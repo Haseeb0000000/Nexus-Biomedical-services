@@ -818,7 +818,12 @@ section,
   white-space: nowrap;
   margin-bottom: 20px;
 }
-
+.hero p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 26px;
