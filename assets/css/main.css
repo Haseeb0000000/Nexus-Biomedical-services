@@ -848,7 +848,7 @@ section,
 
 .hero p {
    font-size: 22px;     
-    font-weight: 500;
+   
   margin-bottom: 30px;
   animation: fadeInDown 1s both 0.2s;
 }
