@@ -769,7 +769,7 @@ section,
   color: var(--heading-color);
   margin: 0;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 700!important;
   text-transform: uppercase;
   font-family: var(--heading-font);
 }
