@@ -769,7 +769,7 @@ section,
   color: var(--heading-color);
   margin: 0;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 700!important;
   text-transform: uppercase;
   font-family: var(--heading-font);
 }
@@ -2500,4 +2500,9 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+@media (max-width: 768px) {
+  .btn-getstarted {
+    display: none;
+  }
 }
